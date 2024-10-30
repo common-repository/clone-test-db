@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clone-test-db__overwrite {
+	margin-top: 20px;
+}
+.clone-test-db__overwrite > div {
+	border: 1px solid #ff0000;
+	display: inline-block;
+	padding: 0 20px;
+}
+.clone-test-db__overwrite label {
+	color: #3c434a;
+}
+.clone-test-db__overwrite p {
+	color: #ff0000;
+}
+
+.clone-test-db__cols {
+	align-items: center;
+	display: flex;
+	margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+	.clone-test-db__cols {
+		flex-direction: column;
+	}
+}
+.clone-test-db__cols__pc,
+.clone-test-db__cols__sp {
+	font-size: 30px;
+	font-weight: bold;
+}
+.clone-test-db__cols__pc {
+	display: block;
+	padding: 0 20px;
+}
+.clone-test-db__cols__sp {
+	display: none;
+	padding: 20px;
+}
+@media screen and (max-width: 750px) {
+	.clone-test-db__cols__pc {
+		display: none;
+	}
+	.clone-test-db__cols__sp {
+		display: block;
+	}
+}
+.clone-test-db__cols__hd {
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+.clone-test-db__cols input,
+.clone-test-db__cols select {
+	width: 100%;
+}

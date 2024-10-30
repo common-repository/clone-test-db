@@ -1,0 +1,79 @@
+# Copyright (C) 2016 Bulk Term Editor
+# This file is distributed under the same license as the Bulk Term Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clone Test DB 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bulk-term-editor\n"
+"POT-Creation-Date: 2021-12-03 18:22+0900\n"
+"PO-Revision-Date: 2021-12-03 18:22+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: clone-test-db.php\n"
+
+#: clone-test-db.php:116
+msgid "Test site address is not set."
+msgstr "テストサイトアドレス (URL)が設定されていません。"
+
+#: clone-test-db.php:119
+msgid "Test database name is not yet set."
+msgstr "テストサイトのデータベース名が設定されていません。"
+
+#: clone-test-db.php:146
+msgid " does exist."
+msgstr " は存在しています。"
+
+#: clone-test-db.php:204
+msgid "Successfully cloned the database!"
+msgstr "データベースのクローン化に成功しました！"
+
+#: clone-test-db.php:234
+msgid "Duplicate the table in another database and optimize it as a test site."
+msgstr "別のデータベースにテーブルを複製しクローンサイトとして最適化します。"
+
+#: clone-test-db.php:235
+msgid "*To view the test site, you will need to transfer files."
+msgstr "*テストサイトを閲覧するにはファイルの転送が必要です。"
+
+#: clone-test-db.php:236
+msgid "*Sorry, multi-site is not supported."
+msgstr "*ごめんなさい、マルチサイトは未対応です。"
+
+#: clone-test-db.php:240
+msgid "Site address"
+msgstr "サイトアドレス (URL)"
+
+#: clone-test-db.php:243
+msgid "Database name"
+msgstr "データベース名"
+
+#: clone-test-db.php:251
+msgid "Test site address"
+msgstr "テストサイトアドレス (URL)"
+
+#: clone-test-db.php:254
+msgid "Test database name"
+msgstr "テストサイトのデータベース名"
+
+#: clone-test-db.php:275
+msgid "Overwrite the table"
+msgstr "テーブルを上書きする"
+
+#: clone-test-db.php:276
+msgid ""
+"If there is even one table with the same name, the copy will not be done."
+"<br>If you want to ignore it and replace the table, check the box."
+msgstr ""
+"ひとつでも同名のテーブルがあるとコピーは行われません。<br>それを無視してテー"
+"ブルを置き換える場合はチェックをしてください。"
+
+#: clone-test-db.php:278
+msgid "Create a clone site"
+msgstr "クローンサイトを作る"
